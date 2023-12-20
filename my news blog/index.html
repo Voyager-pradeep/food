@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Voyager's News</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="tab.css">
+        <link rel="stylesheet" href="phone.css">
+</head>
+
+<body>
+    <main class="container">
+        <nav id="navbar">
+            <div class="nav-1" id="home">
+                <div class="left">
+                    <div class="left-1">
+                        <span>EDITION</span>
+                        <img class="nav-imgs" src="images/flag.png">
+                        <span>IND</span>
+                    </div>
+                    <div class="left-3">
+                        <img class="nav-imgs" src="images/location-dot-solid.svg">
+
+                        <p id="location">Mumbai</p>
+                        <img class="nav-imgs" src="images/cloud-moon-solid.svg">
+                        <p id="temp"></p>
+                    </div>
+                    <div class="left-2">
+                        <p id="time">Sun,JUL 23,2023 7:20</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <button id="nav-btn">SUBSCRIBE TO VN+</button>
+                    <p #signin>SIGN IN</p>
+                    <a target="_blank" href="https://www.facebook.com/pradipdas111?mibextid=ZbWKwL"><i
+                            class="fab fa-facebook fb"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/pradeep_das____/"><i
+                            class="fab fa-telegram tele"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/pradeep_das____/"><i
+                            class="fab fa-instagram insta"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/pradipdas111?mibextid=ZbWKwL"><i
+                            class="fab fa-twitter tele"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/watch?v=aK-s65j5JEM&t=128s"><i
+                            class="fab fa-youtube youtube"></i></a>
+                </div>
+            </div>
+            <div class="nav-2">
+                <h2 class="nav-h2">VOYAGER'S NEWS</h2>
+            </div>
+            <div class="nav-3">
+                <img id="nav-logo" src="images/IMG_20230724_112748.png" alt="">
+                <ul class="nav3-ul">
+                    <li><a class="cool-link visited" id="world" href="">World</a></li>
+                    <li><a class="cool-link visited" id="Technology" href="">Tech</a></li>
+                    <li class="color"><a class="cool-link" id="cricket" href="">Cricket</a></li>
+                    <li><a class="cool-link" id="entertainment" href="">Entertainment</a></li>
+                    <li><a class="cool-link" id="sports" href="">Sports</a></li>
+                    <li><a class="cool-link" id="web_series" href="">Web Series</a></li>
+                    <li><a class="cool-link" id="lifestyle" href="">Life & Style</a></li>
+                    <li><a class="cool-link" id="city" href="">City</a></li>
+                </ul>
+                <div id="search-box">
+                    <input id="nav-input" type="text" placeholder="e.g. Technology">
+                    <input id="nav-submit" type="submit">
+                </div>
+            </div>
+        </nav>
+        <div class="nav-4">
+            <ul class="nav3-ul nav-4-li" >
+                <li><a style="color: red; font-weight: bold; font-size: .7rem;" href="" id="links-">IN THE NEWS</a></li>
+                <li><a class="cool-link links" id="g20" href="">G20 SUMMIT 2023</a></li>
+                <li><a class="cool-link links" id="cricket_world_cup" href="">ICC WORLD CUP 2023</a></li>
+                <li><a class="cool-link links" id="russia_ukraine" href="">RUSSIA UKRAINE WAR</a></li>
+                <li><a class="cool-link links" id="chandrayaan3" href="">CHANDRAYAAN 3</a></li>
+                <li><a class="cool-link links" id="CHINA" href="">CHINA</a></li>
+            </ul>
+        </div>
+
+        <div class="cards-container container flex" id="cards-container">
+
+
+            <article id="template-news-card">
+                <a href="https://www.google.com" target="_blank" class="data-url">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 id="news-title">This is the Title</h3>
+                            <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                </a>
+                <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                    saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+
+        </div>
+        </a>
+        </div>
+        </article>
+        <article id="template-news-card">
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">This is the Title</h3>
+                    <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                    <a href="" class="data-url"></a>
+                    <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione
+                        cumque!</p>
+                </div>
+            </div>
+        </article>
+
+        </div>
+        <div id="night-mood">
+            <div id="night-mode">
+                <i class="fa-solid fa-moon"></i>
+            </div>
+            <p id="nm-text">Dark Mode</p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-center">
+            <div class="footer-content">
+                <div class="footer-logo"><img src="images/logo2.png" alt=""></div>
+                <div><span id="footer-span"></span></div>
+                <p class="footer-text">Copyright &copy 2023 Voyager.com</p>
+            </div>
+            <div class="footer-logo-link">
+                <div class="footer-img">
+                    <a target="_blank" href="https://www.facebook.com/pradipdas111?mibextid=ZbWKwL"><img src="images/facebook-f.svg" alt=""></a>
+                </div>
+                <div class="footer-img">
+                    <a target="_blank" href="https://www.instagram.com/pradeep_das____/"><img src="images/instagram.svg" alt=""></a>
+                </div>
+                <div class="footer-img">
+                    <a target="_blank" href="https://www.instagram.com/pradeep_das____/"><img src="images/telegram.svg" alt=""></a>
+                </div>
+                <div class="footer-img">
+                    <a target="_blank" href="www.linkedin.com/in/pradip-das-4a87a111a"><img src="images/linkedin.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <a href="#home" class="scroll-link top-link"><img src="images/arrow-up-solid.svg" height="15px"></a>
+    <script src="app.js"></script>
+</body>
+
+</html>
